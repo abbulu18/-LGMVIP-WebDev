@@ -1,0 +1,111 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(https://wallpaperaccess.com/full/794210.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+header{
+  background: rgb(34,193,195);
+  background-image: linear-gradient(to right top, #706bd1, #008de9, #00a9ed, #00c0e1, #00d3cd, #4fd9b9, #7bdea4, #a2e092, #b9d97c, #d0d06b, #e6c561, #fbb95f);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+}
+p{
+  font-size: 50px;
+  color: rebeccapurple;
+  font-family: fantasy;
+}
+
+ul{
+  list-style: none;
+}
+.list{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  width: 40%;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 8px solid #e84a5f;
+  background-color:#f3cba5;
+  border-radius: 40px;
+  
+}
+
+
+button{
+  padding: 20px 5px;
+  background: rgb(238,174,202);
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 70%, rgba(252,176,69,1) 100%);
+  cursor: pointer;
+  border: 2px whitesmoke;
+  border-radius: 60px;
+}
+
+button:hover{
+  background: rgb(151,10,245);
+  background-image: linear-gradient(to right top, #ae2f11, #c05402, #ce7700, #d79b00, #dabe00, #e3bf00, #edc000, #f6c100, #ff9d0d, #ff752c, #ff4946, #fb0060);
+}
+
+.hi{
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.li1{
+  padding-left: 20px;
+}
+
+.avatar{
+  border: 8px solid black;
+}
