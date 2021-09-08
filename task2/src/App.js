@@ -31,6 +31,9 @@ const App=()=> {
 
   const loadUsers=async()=>{
         const response = await fetch("https://reqres.in/api/users?page=1" );
+
+        /* as per the given api i have fetched the user details*/
+
     const jsonR = await response.json();
     setUsers(jsonR.data);
   };
@@ -43,7 +46,10 @@ return (
       </header>
       <ul>
 
-        {users.map(({ id , email,first_name,last_name,avatar }) => (
+        {users.map(({ id,email,first_name,last_name,avatar}) => (
+
+          /* displaying the name , id, email*/
+
           <li class="list"key = {id}> 
             <img class="avatar" src={avatar}></img>
             <li>NAME : {first_name} {last_name}</li>
@@ -53,5 +59,9 @@ return (
       </ul>
     </div>
   );
+  
+
 }
-export default App;
+export default App;  
+
+                        /* end of task 2 */
