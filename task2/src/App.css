@@ -62,20 +62,20 @@ p{
 }
 
 ul{
-  list-style: none;
+  list-style:disc;
 }
 .list{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items:center;
+  border-radius:70px;
   margin-bottom: 70px;
-  width: 40%;
-  padding-left: 10px;
+  width:35%;
+  padding-left: 20px;
   padding-top: 10px;
   border: 8px solid #e84a5f;
   background-color:#f3cba5;
-  border-radius: 40px;
   
 }
 
@@ -84,10 +84,10 @@ button{
   padding: 20px 5px;
   background: rgb(238,174,202);
   background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 70%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 70%, rgba(252,176,69,1) 100%);
   cursor: pointer;
   border: 2px whitesmoke;
-  border-radius: 60px;
+  border-radius: 80px;
 }
 
 button:hover{
@@ -108,4 +108,8 @@ button:hover{
 
 .avatar{
   border: 8px solid black;
+  border-radius: 30px;
 }
+    
+
+                       /* end of task 2 */
